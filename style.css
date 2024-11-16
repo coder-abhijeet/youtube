@@ -1,12 +1,22 @@
-p{
-    font-size: 8vh;
+*{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: bold;
 }
-body{
+
+.text-container{
+    flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
+}
+
+.p1{
+    display:block;
+    font-size: 8vh;
+    font-weight: bold;
+}
+.p2{
+    display: block;
+    font-size: 3vh;
 }
